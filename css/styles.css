@@ -1,0 +1,130 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr{
+  width: 5%;
+  border-style: dotted;
+  border-width: 0 0 8px 0;
+  border-color: #D3D3D3;
+}
+
+.profile{
+  margin: 50px auto 80px auto;
+  line-height: 2;
+}
+
+.skills{
+  margin: 80px auto 50px auto;
+
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 110px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+
+.top-container {
+  background-color: #EFFFFD;
+  position: relative;
+  padding-top: 120px;
+}
+.skill1-img{
+  border-radius: 50%;
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+}
+.skill2-img{
+  border-radius: 50%;
+  width: 23%;
+  float:right;
+  margin-right:30px;
+}
+.skill3-img{
+  border-radius: 50%;
+  height: 160px;
+  width: 23%;
+  float:left;
+  margin-right:30px;
+}
+h1 {
+  font-size: 100px;
+  margin: 30px auto 10px auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFB1;
+  line-height: 1.5;
+}
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.3rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.contact-me{
+  margin:80px auto 80px auto;
+  line-height: 2;
+}
+
+.btn{
+  margin-top: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to top, #11999E,#00b8e6);
+  /*background-color:  #11999E;*/
+  padding: 8px 18px ;
+  text-shadow: #666666;
+}
+.btn:hover{
+  /*background: #00008B;*/
+  background: linear-gradient(to top, #30e3cb,#2bc4ad);
+}
+.bottom-cloud {
+  position: absolute;
+  top: 340px;
+  left:350px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 60px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 50px;
+
+}
+
+.footer-link{
+  padding: 20px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color:#008080;
+  font-weight:bold;
+}
+.footer-link:hover{
+  color: #EAF6F6
+}
