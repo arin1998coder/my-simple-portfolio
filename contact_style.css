@@ -1,0 +1,61 @@
+body{
+  text-align: center;
+  background-image: url("images/background_contact.jpg");
+}
+
+.head-section{
+  padding: 5% 10%;
+  display:flex;
+  justify-content:space-between;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  color: #66BFBF;
+  font-weight: 900;
+}
+
+.h4-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.5rem;
+  color: #66BFBF;
+  text-align: left;
+
+}
+
+/* form section */
+
+.form-section{
+  width: 500px;
+  height: 400px;
+  margin: 3% auto;
+  text-align: left;
+  padding: 2%;
+  border: 1px solid white;
+  box-shadow: 5px 10px #06283D;
+}
+.form-element{
+  padding-left: 0;
+  padding-right: 0;
+  color: #66BFBF;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.message{
+  vertical-align: top;
+}
+
+.msgbox{
+  width: inherit;
+  height: 130px;
+}
+
+@media (max-width:775px) {
+  .head-section{
+    display:block;
+  }
+  .h4-heading{
+    text-align: center;
+  }
+}
